@@ -41,9 +41,12 @@ function App() {
   return (
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
-      <Avatar alt="python"/>
-      <Typography id="discrete-slider" color="primary" gutterBottom>
-        Микшер громкости
+        <Avatar alt="python" />
+        <Button variant="contained" disabled>
+          Кнопка не работает
+        </Button>
+        <Typography id="discrete-slider" color="primary" gutterBottom>
+          Микшер громкости
       </Typography>
         <Grid container spacing={2}>
           <Grid item>
@@ -57,10 +60,10 @@ function App() {
           </Grid>
         </Grid>
         <Button color="secondary" fullWidth="true">
-        Не жми
+          Сюда не нажимай
       </Button>
-      <Avatar className={classes.orange}></Avatar>
-      <TextField id="standard-basic" label="Имя" />
+        <Avatar className={classes.orange}>VA</Avatar>
+        <TextField id="standard-basic" label="Имя" />
       </Paper>
     </div>
   );
