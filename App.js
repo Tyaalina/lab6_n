@@ -59,6 +59,7 @@ function App() {
         <Button variant="contained" color="secondary" fullWidth="true">
         Не жми
       </Button>
+      <Avatar className={classes.orange}></Avatar>
       <TextField id="standard-basic" label="Name" />
       </Paper>
     </div>
