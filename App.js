@@ -42,7 +42,7 @@ function App() {
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
       <Avatar alt="python"/>
-      <Typography id="discrete-slider" gutterBottom>
+      <Typography id="discrete-slider" color="error" gutterBottom>
         Микшер громкости
       </Typography>
         <Grid container spacing={2}>
@@ -56,10 +56,10 @@ function App() {
             <VolumeUp />
           </Grid>
         </Grid>
-        <Button variant="contained" color="secondary" fullWidth="true">
+        <Button variant="outlined" color="secondary" fullWidth="true">
         Не жми
       </Button>
-      <TextField id="standard-basic" label="Name" />
+      <TextField id="standard-basic" label="Введите имя" />
       </Paper>
     </div>
   );
