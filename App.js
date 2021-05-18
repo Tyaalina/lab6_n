@@ -41,7 +41,7 @@ function App() {
   return (
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
-        <Avatar alt="python" />
+        <Avatar alt="python">Py</Avatar>
         <Button variant="contained" disabled>
           Кнопка не работает
         </Button>
