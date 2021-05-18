@@ -45,6 +45,7 @@ function App() {
       <Typography id="discrete-slider" color="error" gutterBottom>
         Микшер громкости
       </Typography>
+      <Divider light />
         <Grid container spacing={2}>
           <Grid item>
             <VolumeDown />
